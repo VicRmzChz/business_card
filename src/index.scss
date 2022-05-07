@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #23252C;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background-color: #1A1B21;
+  width: 317px;
+  /*overflow: hidden;*/
+}
+
+.info--section {
+  margin: auto;
+  margin-top: 0.5%;
+  text-align: center;
+
+  .info--img {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .info--titles {
+    margin: 26px 0px 22px 0px;
+
+    h1 {
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 30px;
+      margin: 15px 0px 15px 0px;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #F3BF99;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 400;
+      color: #F5F5F5;
+      font-size: 10px;
+      line-height: 150%;
+    }
+  }
+}
+
+/* Buttons*/
+.buttons {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 317px;
+  padding: 0px 35px 22px 35px;
+
+  a {
+    text-decoration: none;
+  }
+
+  .btn--mail {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 34px;
+    background-color: #FFFFFF;
+
+    border: 1px solid #D1D5DB;
+
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border-radius: .2em;
+
+    p {
+      margin-left: 9px;
+    }
+  }
+
+  .btn--github {
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 34px;
+    background-color: #297FE5;
+
+    border: 1px solid #297FE5;
+
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border-radius: .2em;
+
+    p {
+      margin-left: 9px;
+    }
+  }
+
+}
