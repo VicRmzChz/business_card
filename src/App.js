@@ -7,6 +7,8 @@ export function App() {
   return (
     <div className="main">
       <Info />
+      <About />
+      <Footer />
     </div>
   );
 }
