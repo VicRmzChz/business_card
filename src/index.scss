@@ -16,6 +16,9 @@ body {
 .main {
   background-color: #1A1B21;
   width: 317px;
+  margin: 50px auto;
+
+  border-radius: 0px 0px 10px 10px;
   /*overflow: hidden;*/
 }
 
@@ -104,5 +107,48 @@ body {
       margin-left: 9px;
     }
   }
+}
 
+/* About */
+
+.about {
+  text-align: left;
+  font-size: 10px;
+  margin: 0px 35px;
+
+  h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.31em;
+  }
+
+  p {
+    text-align: justify;
+    width: 247px;
+    margin-bottom: 14px;
+    line-height: 150%;
+  }
+}
+
+/* Footer */
+
+.footer {
+  width: 317px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .media_icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 72px;
+    width: 317px;
+    height: 25px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
